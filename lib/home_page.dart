@@ -1,4 +1,3 @@
-import 'main.dart';
 import 'theme_bloc.dart';
 import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget{
@@ -23,7 +22,6 @@ class HomePage extends StatelessWidget{
             title: Text('MM Employee ${index+1}'),
             leading: Image.network('https://robohash.org/user$index}'),
             trailing: Icon(Icons.edit),
-            onLongPress: bloc.changeTheme
 
           );
         }
